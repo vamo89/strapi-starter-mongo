@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/distribution-centers",
+      "handler": "distribution-center.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/distribution-centers/count",
+      "handler": "distribution-center.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/distribution-centers/:id",
+      "handler": "distribution-center.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/distribution-centers",
+      "handler": "distribution-center.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/distribution-centers/:id",
+      "handler": "distribution-center.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/distribution-centers/:id",
+      "handler": "distribution-center.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

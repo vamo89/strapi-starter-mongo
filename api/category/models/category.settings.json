@@ -37,6 +37,10 @@
     },
     "description": {
       "type": "text"
+    },
+    "distribution_centers": {
+      "via": "categories",
+      "collection": "distribution-center"
     }
   }
 }
